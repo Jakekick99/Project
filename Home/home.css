@@ -1,0 +1,114 @@
+@font-face {
+    font-family: RobotoThin;
+    src: url("Roboto.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");
+}
+html,body{
+	margin:0px;
+	padding:0px;
+	background-color:rgb(224, 224, 224);
+}
+header{
+	position:fixed;
+	margin:0px;
+	top:0px;
+	width:100%;
+	background-color:rgba(30,82,160,1);
+	font-family:"Gabriola",Helvetica,Sans-Serif;
+	font-size:45px;
+	color:white;
+	letter-spacing:1px;
+	overflow:hidden;
+	
+}
+nav{
+	margin:0;
+	position:fixed;
+	border-style:solid;
+	border-color:white;
+	border-top-width:5px;
+	top:60px;
+	right:0px;
+	left:0px;
+	background-color:rgba(30,82,160,1);
+	overflow:hidden;
+	box-shadow: 2px 2px 2px 2px gray;
+}
+nav table{
+	line-height:25px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:4px;
+	text-align:center;
+	font-family:"Berlin Sans FB";
+	font-size:large;
+	background-color:rgba(30,82,160,1);
+	color:white;
+}
+nav table td a:link{color:white;}
+nav table td a:hover{color:white;}
+nav table td a:active{color:white;}
+nav table td a:visited{color:white;}
+#animate{
+	transition: background-color 0.5s;
+}
+#animate:hover{
+	background-color:red;
+}
+header table{
+	
+	margin-left:10%;
+	margin-right:10%;
+	line-height:30px;
+	width:80%;
+	align:center;
+}
+header table td,th{
+	padding-right:10px;
+	vertical-align:center;
+}
+#heading{
+	text-align:right;
+}
+#content::first-letter{
+	font-size:300%;
+	font-family:"Edwardian Script ITC";
+	letter-spacing:2px;
+}
+#content{
+	font-family:"Roboto";
+	padding-top:110px;
+	padding-left:4px;
+	padding-right:4px;
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	background:linear-gradient(white ,rgb(224,224,224));
+}
+footer{
+	color:white;
+	font-size:large;
+	background-color:rgb(96,95,95);
+	padding:10px;
+}
+#f1{
+	max-height:199px;
+	max-width:153px;
+	min-height:99px;
+	min-width:76px;
+	padding:10px;
+	vertical-align:text-bottom;
+}
+#f2{
+	max-height:205px;
+	max-width:367px;
+	min-height:102px;
+	min-width:183px;
+	padding:10px;
+	vertical-align:text-bottom;
+}
